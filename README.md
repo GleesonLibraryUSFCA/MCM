@@ -5,4 +5,4 @@ extract_bibnumbers.py - extracts bibnumbers starting with b from a file. Useful 
 
 BibsbyURL.sql - returns a list of bibnumbers and urls with matching text in the URL and location matching 'gint'. 
 
-circstats.sql - returns a variety of useful statistics, including the bib creation date, year published, call number, location code, number of items, checkout count, most recent check in date, and whether the bib has a scelc retention 583 tag or a 962 tag.
+circstats.sql - returns a variety of useful statistics, including the bib creation date, year published, call number, location code, number of items, checkout count, most recent check in date, and whether the bib has a scelc retention 583 tag or a 962 tag. Only returns bibs that are not suppressed and have a gmain location.
