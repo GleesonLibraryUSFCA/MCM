@@ -1,4 +1,5 @@
 --Circ stats
+--gmain and not suppressed only
 SELECT 
     -- SELECT tells the database which columns we want to see in our results
     'b' || bv.record_num || 'a' AS bibnumber,  -- Create human-readable bib number like "b1234567a"
